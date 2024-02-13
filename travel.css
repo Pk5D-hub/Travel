@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+#globalcontainer{
+  background-image: url(fabrizio-coco-8xpBe_FOdYY-unsplash.jpg);
+  background-size: 100%;
+}
+
+#header{
+    height: 50%;
+}
+#content{
+  padding-top: 10px;
+    width: 40%;
+  float:right
+}
+
+#para{
+  text-align: start;
+}
+#forms{
+  width: 40%;
+}
+
+#image{
+  width: 50%;
+}
+ul {
+    margin-block: 0em;
+    background-color:#524444;
+    text-align: justify;
+    padding: 16px;
+    
+  }
+  a{
+    text-decoration: none;
+    color: beige;
+  }
+  
+  tbody{
+    text-align: center;
+    font-size: large;
+  }
+  #search{
+    float:right;
+  }
+  #package{
+    padding-top: 20px
+  }
+  input{
+    border-radius: 10px;
+  }
