@@ -10,6 +10,7 @@ body{
 }
 
 #header{
+    background-color: rgb(158, 134, 105);
     height: 50%;
 }
 #content{
@@ -22,18 +23,20 @@ body{
   text-align: start;
 }
 #forms{
-  width: 40%;
+  width: 20%;
+  background-color: rgb(184, 179, 179);
+  text-align: center;
+  margin: 10px;
 }
+
 
 #image{
   width: 50%;
 }
 ul {
     margin-block: 0em;
-    background-color:#524444;
     text-align: justify;
-    padding: 16px;
-    
+    padding: 16px; 
   }
   a{
     text-decoration: none;
@@ -52,4 +55,13 @@ ul {
   }
   input{
     border-radius: 10px;
+  }
+ table,th,td{
+    border: 1px solid bisque;
+  }
+  nav{
+    background-color:rgb(96, 112, 112);
+    display: inline-block;
+    float: right;
+    
   }
