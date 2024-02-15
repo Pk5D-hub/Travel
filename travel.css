@@ -37,7 +37,7 @@ body{
 }
 ul {
     margin-block: 0em;
-    text-align: justify;
+   list-style-type: none;
     padding: 16px; 
   }
   a{
