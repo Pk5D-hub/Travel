@@ -6,10 +6,12 @@ body{
 #globalcontainer{
   background-image: url(fabrizio-coco-8xpBe_FOdYY-unsplash.jpg);
   background-size: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
 }
 
 #header{
-    background-color: rgb(158, 134, 105);
+    background-color: rgb(46, 42, 37);
     height: 50px;
 }
 #content{
@@ -26,9 +28,10 @@ body{
   background-color: rgb(184, 179, 179);
   text-align: center;
   margin: 10px;
+  border: 20px solid;
+  border-color: black;
+  color: black;
 }
-
-
 #image{
   width: 50%;
 }
@@ -58,8 +61,27 @@ ul {
  table,th,td{
     border: 1px solid bisque;
   }
-  nav{
+ nav{
     background-color:rgb(96, 112, 112);
-    float: right;
+    text-indent: 10px;
+    padding-bottom: 16px;
+    position: fixed;
+    width: 100%;
     
+  }
+  li{
+    float: left;
+  }
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  article{
+    border-radius: 10px;
+    background-color: dimgray;
+    padding-left: 50px;
+   margin: 5px;
+  
   }
